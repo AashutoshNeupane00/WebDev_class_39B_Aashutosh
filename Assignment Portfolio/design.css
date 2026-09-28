@@ -1,0 +1,163 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* whole site with rounded edges */
+.container {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* header */
+header {
+    background-color: #1b2538;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+.position {
+    color: lightgray;
+    font-size: 20px;
+}
+
+/* nav links in one line, no decoration */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: deepskyblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* main content */
+main {
+    padding: 20px 10%;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid lightgray;
+}
+
+/* introduction */
+.intro-text {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+mark {
+    background-color: yellow;
+}
+
+/* image centered */
+figure {
+    text-align: center;
+}
+
+img {
+    border-radius: 15px;
+}
+
+figcaption {
+    font-style: italic;
+    color: gray;
+}
+
+/* experience: light, bold, light, bold */
+ol li:nth-child(odd) {
+    font-weight: lighter;
+}
+
+ol li:nth-child(even) {
+    font-weight: bold;
+}
+
+/* skills table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #1b2538;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+/* projects */
+ul {
+    list-style-type: square;
+}
+
+/* video centered */
+.center {
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* form */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+label.inline {
+    display: inline;
+    font-weight: normal;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1b2538;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
